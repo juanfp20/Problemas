@@ -4,27 +4,27 @@
 #Devuelve como salida el numero de la nota definitiva.
 while True:
 	try:
-		p1 = int(input("ingrese la nota del primer parcial"))
+		p1 = float(input("ingrese la nota del primer parcial"))
 		break
 	except ValueError:
 		print("Opps, ingrese nuevamente")
 while True:
 	try:
-		p2 = int(input("ingrese la nota del segundo parcial"))
-		break
-	except ValueError:
-		print("Opps, ingrese nuevamente")
-
-while True:
-	try:
-		t = int(input("ingrese la nota del taller"))
+		p2 = float(input("ingrese la nota del segundo parcial"))
 		break
 	except ValueError:
 		print("Opps, ingrese nuevamente")
 
 while True:
 	try:
-		proy = int(input("ingrese la nota del proyecto"))
+		t = float(input("ingrese la nota del taller"))
+		break
+	except ValueError:
+		print("Opps, ingrese nuevamente")
+
+while True:
+	try:
+		proy = float(input("ingrese la nota del proyecto"))
 		break
 	except ValueError:
 		print("Opps, ingrese nuevamente")
