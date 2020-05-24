@@ -1,7 +1,3 @@
-#El codigo resuelve el problema de encontrar el area de un triangulo
-#Recibe como entrada dos numeros en referencia a la base y la altura. No se pasara a la siguiente accion si no se ingresa un numero correctamente
-#Devuelve como salida el numero del area del triangulo.
-
 
 while True:
 	try:
