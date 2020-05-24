@@ -3,13 +3,13 @@
 #Devuelve como salida el numero del area del triangulo.
 while True:
 	try:
-		Base= int(input("ingrese la base del triangulo"))
+		Base= float(input("ingrese la base del triangulo"))
 		break
 	except ValueError:
 		print("Opps, ingrese nuevamente")
 while True:
 	try:
-		Altura = int(input("ingrese la altura del triangulo"))
+		Altura = float(input("ingrese la altura del triangulo"))
 		break
 	except ValueError:
 		print("Opps, ingrese nuevamente")
